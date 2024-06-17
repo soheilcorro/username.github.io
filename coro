@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>صفحه شخصی من</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            direction: rtl;
+            text-align: right;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #007bff;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background-color: #333;
+            overflow: hidden;
+        }
+        nav a {
+            float: right;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+        }
+        nav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+        section {
+            padding: 20px;
+            margin: 20px;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>صفحه شخصی من</h1>
+</header>
+
+<nav>
+    <a href="#about">درباره من</a>
+    <a href="#articles">مقالات و آموزش‌ها</a>
+    <a href="#strategies">استراتژی‌های ترید</a>
+    <a href="#contact">تماس با من</a>
+    <a href="#blog">وبلاگ</a>
+    <a href="#portfolio">نمونه‌کارها و موفقیت‌ها</a>
+</nav>
+
+<section id="about">
+    <h2>درباره من</h2>
+    <p>تخصص من در ترید بازار فارکس است و با سال‌ها تجربه در این زمینه، به آموزش و به اشتراک‌گذاری استراتژی‌های موفق پرداخته‌ام.</p>
+</section>
+
+<section id="articles">
+    <h2>مقالات و آموزش‌ها</h2>
+    <p>در این بخش، مقالات و آموزش‌های مرتبط با ترید بازار فارکس را خواهید یافت.</p>
+</section>
+
+<section id="strategies">
+    <h2>استراتژی‌های ترید</h2>
+    <p>در اینجا می‌توانید توضیحاتی در مورد انواع استراتژی‌های ترید که استفاده می‌کنم یا توصیه می‌کنم را پیدا کنید.</p>
+</section>
+
+<section id="contact">
+    <h2>تماس با من</h2>
+    <p>برای ارتباط با من، می‌توانید با شماره 05338648170 تماس بگیرید.</p>
+</section>
+
+<section id="blog">
+    <h2>وبلاگ</h2>
+    <p>به‌روزرسانی‌های منظم و مطالب جدید در مورد ترید و بازارهای مالی در این بخش قرار خواهد گرفت.</p>
+</section>
+
+<section id="portfolio">
+    <h2>نمونه‌کارها و موفقیت‌ها</h2>
+    <p>نمونه‌کارها و موفقیت‌های تریدی من در اینجا نمایش داده خواهد شد.</p>
+</section>
+
+<footer>
+    <p>© 2024 صفحه شخصی من. تمامی حقوق محفوظ است.</p>
+</footer>
+
+</body>
+</html>
